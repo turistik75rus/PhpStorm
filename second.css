@@ -106,7 +106,8 @@ div.second-card p
 {
     background: #e1725d;
     color: #ffffff !important;
-    border-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
     margin: 0 3% 0 3%;
     width: auto;
     height: auto;
@@ -117,20 +118,18 @@ div.therd-card h3,
 div.therd-card p{
     color: #ffffff !important;
     background: #f5b400;
-    border-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
     margin: 0 3% 0 3%;
+    z-index: 10000 !important;
 }
 
-div.second{
-    padding-bottom: 10%;
-    padding-top: 3% !important;
-    border-radius: 0 !important;
-    border-bottom-right-radius: 40px!important;
-}
+div.second,
 div.therd{
-    margin-bottom: 10% !important;
-    padding-top: 3% !important;
+    margin-bottom: 5%;
+    padding: 5%;
 }
+
 
 
 div a.arrow-up:hover{
@@ -143,7 +142,19 @@ div a.arrow-up{
     color: #1f2020 !important;
     background: #f1efe8;
     border-radius: 40px;
-    position: fixed; bottom: 150px; right: 12px; padding: 5px
+    position: fixed; bottom: 150px; right: 12px; padding: 5px;
+}
+
+h1.h1-hr{
+    border-radius: 30px;
+    padding-top: 1%;
+    background: #3d6b68;
+}
+
+.div-bottom{
+    border-radius: 30px;
+    padding-top: 1%;
+    background: #3d6b68;
 }
 
 
